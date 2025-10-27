@@ -35,8 +35,6 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-
 const currentYear = new Date().getFullYear()
 
 const handleClick = () => {
