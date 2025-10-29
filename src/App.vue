@@ -130,18 +130,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.chuseok-wrap {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at 50% 10%, #0a1633 0%, #0b1c40 40%, #061024 100%);
-  color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
-  overflow: hidden;
-}
+
 
 /* 이하 기존 스타일 동일 */
 .sky {
