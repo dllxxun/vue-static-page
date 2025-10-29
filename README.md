@@ -23,12 +23,18 @@ Vue + TypeScript + Vite를 이용해서 한가위 분위기에 맞게
 ---
 
 ## ⚙️ 실행 방법
-# 프로젝트 클론
+### 프로젝트 클론
+```
 git clone https://github.com/dllxxun/vue-static-page.git
 cd vue-static-page
+```
 
-# 패키지 설치
+### 패키지 설치
+```
 npm install
+```
 
-# 개발 서버 실행
+### 개발 서버 실행
+```
 npm run dev
+```
