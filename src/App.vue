@@ -266,4 +266,46 @@ h1 {
   .lantern { width: 54px; height: 86px }
   h1 { font-size: 22px }
 }
+
+/* 다크 모드 (기존 스타일 유지) */
+@media (prefers-color-scheme: dark) {
+  .content {
+    color: #fff;
+  }
+}
+
+/* 라이트 모드 */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fdfdfd; /* 밝은 배경 */
+  }
+
+  .content {
+    color: #222; /* 어두운 글씨로 변경 */
+  }
+
+  .greeting-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .add-greeting input {
+    background: rgba(255,255,255,0.7);
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.2);
+  }
+
+  .controls button {
+    color: #000;
+    background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.6));
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .controls button:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 230, 150, 0.8);
+  }
+}
+
 </style>
